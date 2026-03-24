@@ -1,0 +1,45 @@
+{
+  "projectType": "general",
+  "projectName": "Afnan Altaf Portfolio",
+  "projectDescription": "A personal portfolio website showcasing Afnan Altaf's skills, work experience, education, and certifications as a freelancer and digital services provider.",
+  "theme": "willow",
+  "primaryColor": "#ff9800",
+  "lightColor": "#fff8e1",
+  "darkColor": "#111111",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": ["introduction"]
+      },
+      {
+        "group": "Profile",
+        "pages": ["skills", "work-experience", "education"]
+      },
+      {
+        "group": "Achievements",
+        "pages": ["certifications"]
+      },
+      {
+        "group": "Connect",
+        "pages": ["contact"]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Dark-themed single-page portfolio with orange accent design",
+    "Responsive layout supporting mobile and desktop views",
+    "Light/dark mode toggle",
+    "5-star rated skills: Blogger, Store Advertiser, E-Services Seller, Site Builder",
+    "Detailed work experience across blogging, e-commerce, and digital services",
+    "13 Udemy certifications in web development, digital marketing, SEO, and more",
+    "Integrated contact form via Formspree",
+    "Downloadable CV"
+  ],
+  "publicApiSurface": [
+    "Contact form (Formspree endpoint: mwverpag)",
+    "Downloadable CV (GitHub Releases PDF)",
+    "WhatsApp link (jambertech.short.gy)",
+    "Live site: https://afnan-altaf.github.io/portfolio/"
+  ]
+}
